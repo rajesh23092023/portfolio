@@ -1,0 +1,190 @@
+========== NAVBAR ==========
+.nav-name
+Home 
+About
+Portfolio
+Contact
+
+
+========== HOME ==========
+.home-title
+I'm Lucy Milner Web Designer
+
+.home-description
+I am a Tunisian based web designer & front-end developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+
+.button
+More About Me
+
+
+========== ABOUT ==========
+.section-title
+About Me
+
+.section-subtitle
+Personal Infos
+
+.info-title | .info-description
+First Name
+Lucy
+
+Last Name
+Milner
+
+Age
+27 Years
+
+Nationality
+Tunisian
+
+Freelance
+Available
+
+Address
+Tunis
+
+Phone
++21621184010
+
+Email
+you@mail.com
+
+Skype
+lucy.milner
+
+Languages
+French, English
+
+.button
+Download Cv
+
+.stats-no | .stats-title
+12+
+Years of Experience
+
+97+
+Completed Projects
+
+81+
+Happy Customers
+
+53+
+Awards Won
+
+.section-subtitle
+My Skills
+
+.skills-title
+Frontend Developer
+Web Designer
+
+.skills-name | .skills-level
+HTML
+Intermediate
+
+CSS
+Advanced
+
+JavaScript
+Intermediate
+
+React
+Basic
+
+Tailwind
+Intermediate
+
+Figma
+Advanced
+
+Sketch
+Basic
+
+Adobe XD
+Intermediate
+
+Photoshop
+Intermediate
+
+InvisionApp
+Basic
+
+.section-subtitle
+Experience & Education
+
+.resume-date | .resume-subtitle | .resume-description
+2018 - Present
+Web Developer Envato
+Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit.
+
+2013 - 2018
+UI/UX Designer Themeforest
+Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt.
+
+2005 - 2013
+Consultant Videohive
+Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt.
+
+2015
+Engineering Degree Oxford University
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore.
+
+2012
+Master Degree KIEV University
+Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt.
+
+2009
+Bachelor Degree Tunis High School
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore.
+
+
+========== PORTFOLIO ==========
+.section-title
+My Portfolio
+
+.portfolio-title
+Coffee Website
+Food Product Design
+Restaurant Landing Page
+Barbershop Website
+Construction Landing Page
+
+.portfolio-description
+Short description of the project that was carried out in this portfolio.
+
+.portfolio-link
+Visit Project
+
+
+========== CONTACT ==========
+.section-title
+Contact Me
+
+.contact-title | .contact-data
+Address
+North Tower, Toronto, Tunis
+
+Freelance
+Available Right Now
+
+Email
+you@mail.com
+
+Phone
++21621184010
+
+.contact-form-tag
+Your Full Name *
+Your Email Address
+Your Subject
+Your Message
+
+.button
+Send Message
+
+
+* EMAIL JS *
+Write all the input fields
+
+Message sent ✔
+OOPs! SOMETHING WENT WRONG...

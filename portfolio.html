@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== REMIXICON ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Portfolio Website Rajesh</title>
+</head>
+
+<body>
+  <!--=============== NAVBAR ===============-->
+  <nav class="nav">
+    <div class="nav-menu" id="nav-menu">
+      <ul class="nav-list grid">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            <i class="ri-home-4-line nav-icon"></i>
+            <h3 class="nav-name">Home</h3>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            <i class="ri-user-3-line nav-icon"></i>
+            <h3 class="nav-name">About</h3>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="portfolio.html" class="nav-link active-link">
+            <i class="ri-folder-2-line nav-icon"></i>
+            <h3 class="nav-name">Portfolio</h3>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            <i class="ri-mail-open-line nav-icon"></i>
+            <h3 class="nav-name">Contact</h3>
+          </a>
+        </li>
+      </ul>
+
+      <i class="ri-close-line nav-close" id="nav-close"></i>
+    </div>
+
+    <div class="nav-toggle" id="nav-toggle">
+      <i class="ri-menu-line"></i>
+    </div>
+  </nav>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== PORTFOLIO ===============-->
+    <section class="portfolio section">
+      <h2 class="section-title">
+        My <span>Portfolio</span>
+      </h2>
+
+      <div class="portfolio-container container grid">
+
+        <article class="portfolio-card">
+          <a href="#" class="portfolio-img-wrapper">
+            <img src="assets/img/project-1.jpeg" alt="" class="portfolio-img">
+          </a>
+
+          <h3 class="portfolio-title">Music-player-clone</h3>
+          <p class="portfolio-description">A stylish music player clone built with HTML and CSS, featuring song details,
+            playback controls, and a responsive user interface.</p>
+
+          <div class="portfolio-skills">
+            <img src="assets/img/html-logo.svg" alt="" class="portfolio-skill">
+            <img src="assets/img/css-logo.svg" alt="" class="portfolio-skill">
+          </div>
+
+          <a href="https://music-player-lyart-seven.vercel.app/" target="_blank" class="portfolio-link">
+            <i class="ri-link link-icon"></i>
+            Visit Project
+          </a>
+        </article>
+
+
+        <article class="portfolio-card">
+          <a href="#" class="portfolio-img-wrapper">
+            <img src="assets/img/project-2.png" alt="" class="portfolio-img">
+          </a>
+
+          <h3 class="portfolio-title">AI chat bot</h3>
+          <p class="portfolio-description">An AI chatbot built with Next.js, Node.js, and JavaScript, offering smooth
+            UI, and seamless backend integration.</p>
+          <br>
+          <br>
+          <div class="portfolio-skills">
+            <img src="assets/img/javascript-logo.svg" alt="" class="portfolio-skill">
+            <img src="assets/img/javascript-logo.svg" alt="" class="portfolio-skill">
+          </div>
+
+          <a href="https://ai-sand-delta.vercel.app/" target="_blank" class="portfolio-link">
+            <i class="ri-link link-icon"></i>
+            Visit Project
+          </a>
+        </article>
+
+
+        <article class="portfolio-card">
+          <a href="#" class="portfolio-img-wrapper">
+            <img src="assets/img/project-3.jpeg" alt="" class="portfolio-img">
+          </a>
+
+          <h3 class="portfolio-title">Gaming-UI</h3>
+          <p class="portfolio-description">A dynamic 3D gaming UI built with HTML, CSS, JavaScript, and React, featuring
+            interactive elements, animations, and responsive design.</p>
+          <br>
+          <div class="portfolio-skills">
+            <img src="assets/img/html-logo.svg" alt="" class="portfolio-skill">
+            <img src="assets/img/css-logo.svg" alt="" class="portfolio-skill">
+            <img src="assets/img/javascript-logo.svg" alt="" class="portfolio-skill">
+            <img src="assets/img/react-logo.svg" alt="" class="portfolio-skill">
+          </div>
+
+          <a href="#" class="portfolio-link">
+            <i class="ri-link link-icon"></i>
+            Visit Project
+          </a>
+        </article>
+
+
+        <article class="portfolio-card">
+          <a href="#" class="portfolio-img-wrapper">
+            <img src="assets/img/project-4.jpeg" alt="" class="portfolio-img">
+          </a>
+
+          <h3 class="portfolio-title">Netflix-clone</h3>
+          <p class="portfolio-description">A Netflix clone designed using HTML and CSS, featuring a good layout, movie
+            thumbnails, navigation bar, and modern UI styling.</p>
+
+          <div class="portfolio-skills">
+            <img src="assets/img/html-logo.svg" alt="" class="portfolio-skill">
+            <img src="assets/img/css-logo.svg" alt="" class="portfolio-skill">
+          </div>
+
+          <a href="#" class="portfolio-link">
+            <i class="ri-link link-icon"></i>
+            Visit Project
+          </a>
+        </article>
+
+
+      </div>
+    </section>
+  </main>
+
+  <!--=============== STYLE SWITCHER ===============-->
+  <div class="style-switcher" id="style-switcher">
+      <div class="switcher-toggler" id="switcher-toggler">
+        <i class="ri-settings-4-line"></i>
+      </div>
+
+      <div class="theme-toggler" id="theme-toggler">
+        <i class="ri-sun-line" id="theme-icon"></i>
+      </div>
+
+      <h3 class="switcher-title">Style Switcher</h3>
+
+      <div class="switcher-items grid">
+
+        <img src="assets/img/orange.png" alt="" class="theme-img" style="--hue: 19">
+        
+        <img src="assets/img/blueviolet.png" alt="" class="theme-img" style="--hue: 271">
+
+        <img src="assets/img/blue.png" alt="" class="theme-img" style="--hue: 225">
+
+        <img src="assets/img/magenta.png" alt="" class="theme-img" style="--hue: 339">
+
+        <img src="assets/img/yellowgreen.png" alt="" class="theme-img" style="--hue: 80">
+
+        <img src="assets/img/red.png" alt="" class="theme-img" style="--hue: 4">
+
+        <img src="assets/img/yellow.png" alt="" class="theme-img" style="--hue: 42">
+        
+      </div>
+
+      <div class="switcher-close" id="switcher-close">&times;</div>
+    </div>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

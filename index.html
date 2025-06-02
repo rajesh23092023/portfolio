@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICON ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website Rajesh</title>
+  </head>
+  <body>
+    <!--=============== NAVBAR ===============-->
+    <nav class="nav">
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list grid">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active-link">
+              <i class="ri-home-4-line nav-icon"></i>
+              <h3 class="nav-name">Home</h3>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              <i class="ri-user-3-line nav-icon"></i>
+              <h3 class="nav-name">About</h3>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">
+              <i class="ri-folder-2-line nav-icon"></i>
+              <h3 class="nav-name">Portfolio</h3>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              <i class="ri-mail-open-line nav-icon"></i>
+              <h3 class="nav-name">Contact</h3>
+            </a>
+          </li>
+        </ul>
+
+        <i class="ri-close-line nav-close" id="nav-close"></i>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home-container grid">
+      <img src="assets/img/profile.jpeg" class="home-img">
+      
+
+      <div class="home-content">
+      <h1 class="home-title">
+        <span>I'm Rajesh Patro</span>
+       <br/>
+          Web Designer
+        </h1>
+
+        <p class="home-description">
+          I am a Indian web designer & front-end developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+        </p>
+
+        <a href="about.html" class="button">
+          More About Me
+          <span class="button-icon">
+            <i class="ri-arrow-right-line"></i>
+          </span>
+        </a>
+      </div>
+
+      <div class="color-block"></div>
+    </section>
+    </main>
+
+    <!--=============== STYLE SWITCHER ================-->
+    <div class="style-switcher" id="style-switcher">
+      <div class="switcher-toggler" id="switcher-toggler">
+        <i class="ri-settings-4-line"></i>
+      </div>
+
+      <div class="theme-toggler" id="theme-toggler">
+        <i class="ri-sun-line" id="theme-icon"></i>
+      </div>
+
+      <h3 class="switcher-title">Style Switcher</h3>
+
+      <div class="switcher-items grid">
+
+        <img src="assets/img/orange.png" alt="" class="theme-img" style="--hue: 19">
+        
+        <img src="assets/img/blueviolet.png" alt="" class="theme-img" style="--hue: 271">
+
+        <img src="assets/img/blue.png" alt="" class="theme-img" style="--hue: 225">
+
+        <img src="assets/img/magenta.png" alt="" class="theme-img" style="--hue: 339">
+
+        <img src="assets/img/yellowgreen.png" alt="" class="theme-img" style="--hue: 80">
+
+        <img src="assets/img/red.png" alt="" class="theme-img" style="--hue: 4">
+
+        <img src="assets/img/yellow.png" alt="" class="theme-img" style="--hue: 42">
+        
+      </div>
+
+      <div class="switcher-close" id="switcher-close">&times;</div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
